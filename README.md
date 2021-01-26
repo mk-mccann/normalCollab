@@ -7,3 +7,6 @@ Activate the environment `conda activate normalCollab`
 
 # Running the script
 To run the script in terminal `python main.py`
+
+# Example image of output 
+![plot](example_plot)
