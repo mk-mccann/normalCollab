@@ -9,4 +9,4 @@ Collaborative plotting of normal distribution.
 To run the script in terminal `python main.py`
 
 # Example image of output 
-![plot](example_plot)
+![plot](example_plot.png)
