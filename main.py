@@ -7,5 +7,5 @@ samples = 100
 dist = np.random.normal(mean, std, samples)
 
 plt.hist(dist)
-plt.savefig('norm_plot', format = '.pdf')
+plt.savefig('norm_plot.pdf', format='pdf')
 plt.show()
