@@ -1,5 +1,10 @@
 import numpy as np
-import matplotlib
+import matplotlib.pyplot as plt
 
-np.random.rand(10)
+mean = 0
+std = 3
+samples = 100
+dist = np.random.normal(mean, std, samples)
 
+plt.hist(dist)
+plt.show()
