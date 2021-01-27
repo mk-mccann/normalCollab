@@ -19,6 +19,6 @@ jobs:
       - name: Generate conda environment 
         run: |
           conda env create -f environment.yml
-          conda run -n actions-mwe python --version  # https://pythonspeed.com/articles/activate-conda-dockerfile/
+          conda run -n normalCollab python --version
           
      
