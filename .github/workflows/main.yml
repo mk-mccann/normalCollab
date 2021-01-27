@@ -20,5 +20,9 @@ jobs:
         run: |
           conda env create -f environment.yml
           conda run -n normalCollab python --version
+      - name: Run histogram script
+        run: |
+          conda run -n normalCollab python main.py
+          
           
      
