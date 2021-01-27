@@ -1,0 +1,12 @@
+name: Linux Workflow 
+on: [push]
+jobs:
+  job_id: normalCollab
+  main: 
+    name: Run Workflow
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: What is your favourite song?
+        run: echo 'Barbie girl' > song.txt
+     
