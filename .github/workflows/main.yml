@@ -23,6 +23,11 @@ jobs:
       - name: Run histogram script
         run: |
           conda run -n normalCollab python main.py
+      - name: Show best histogram EVER as pdf
+        uses: actions/upload-artifact@v2
+        with: 
+          name: histogram
+          path: ./norm_plot.pdf 
           
           
      
